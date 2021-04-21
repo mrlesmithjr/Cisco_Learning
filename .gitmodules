@@ -1,0 +1,3 @@
+[submodule "external_resources/pyATS-Lab-Guide"]
+	path = external_resources/pyATS-Lab-Guide
+	url = git@github.com:sttrayno/pyATS-Lab-Guide.git
