@@ -7,5 +7,10 @@
         "args": {
             "VARIANT": "3.8"
         }
-    }
+    },
+    "remoteUser": "vscode",
+    "runArgs": [
+        "-v",
+        "${localEnv:HOME}/.ssh:/home/vscode/.ssh:ro"
+    ],
 }
