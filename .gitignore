@@ -3,3 +3,6 @@
 latest/
 baseline/
 diff_dir/
+ansible/collections/ansible_collections
+ansible/reports/*.json
+ansible/reports/*.yaml
