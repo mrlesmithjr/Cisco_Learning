@@ -63,3 +63,19 @@ Username: devnetmeraki@cisco.com
 Password: ilovemeraki
 You can also use this API key for the Dashboard API: 6bec40cf957de430a6f1f2baa056b99a4fac9ea0
 ```
+
+## Programability
+
+### Ansible
+
+#### Ansible Requirements
+
+Because we are using collections and roles throughout this learning, we need to install
+them using `ansible-galaxy`.
+
+```bash
+cd ansible
+ansible-galaxy install -r requirements.yml
+```
+
+### Python

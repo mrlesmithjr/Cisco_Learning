@@ -1,0 +1,20 @@
+---
+- hosts: nxos
+  gather_facts: false
+  tasks:
+    - name: Gather all legacy facts
+      cisco.nxos.nxos_facts:
+        gather_subset: all
+      register: _nxos_facts
+
+    - name: Generate device details from facts as JSON
+      copy:
+        dest: "{{ playbook_dir }}/../reports/{{ inventory_hostname }}.json"
+        content: "{{ _nxos_facts.ansible_facts|to_nice_json }}"
+      delegate_to: localhost
+
+    - name: Generate device details from facts as YAML
+      copy:
+        dest: "{{ playbook_dir }}/../reports/{{ inventory_hostname }}.yaml"
+        content: "{{ _nxos_facts.ansible_facts|to_nice_yaml }}"
+      delegate_to: localhost
