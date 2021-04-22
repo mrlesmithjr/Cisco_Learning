@@ -466,7 +466,7 @@ websocket-client = ">=0.47.0"
 
 [[package]]
 name = "jinja2"
-version = "2.11.3"
+version = "2.11.2"
 description = "A very fast and expressive template engine."
 category = "main"
 optional = false
@@ -688,7 +688,7 @@ optional = false
 python-versions = ">=3.5"
 
 [package.dependencies]
-jinja2 = "2.11.3"
+jinja2 = "2.11.2"
 "pyats.aereport" = ">=21.3.0,<21.4.0"
 "pyats.datastructures" = ">=21.3.0,<21.4.0"
 "pyats.log" = ">=21.3.0,<21.4.0"
@@ -813,7 +813,7 @@ aiohttp = {version = "3.7.2", markers = "python_version >= \"3.6\""}
 aiohttp-swagger = "1.0.15"
 async-lru = "1.0.2"
 chardet = "3.0.4"
-Jinja2 = "2.11.3"
+Jinja2 = "2.11.2"
 "pyats.datastructures" = ">=21.3.0,<21.4.0"
 python-engineio = "3.13.2"
 python-socketio = "4.6.0"
