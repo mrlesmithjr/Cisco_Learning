@@ -31,3 +31,11 @@ jobs:
       - name: Run pre-commit checks
         run: |
           SKIP=no-commit-to-branch pre-commit run --all-files
+      - name: Run Ansible NXOS facts playbook
+        run: |
+          cd ansible
+          ansible-playbook -i inventory playbooks/nxos_facts.yml
+      - name: Run Ansible NXOS playbook
+        run: |
+          cd ansible
+          ansible-playbook -i inventory playbooks/nxos.yml
