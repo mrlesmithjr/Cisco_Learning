@@ -1,0 +1,33 @@
+---
+# Define NXOS features to manage
+# name: feature
+# state: enabled|disabled
+nxos_features:
+  - name: bash-shell
+    state: enabled
+  - name: bgp
+    state: enabled
+  - name: dhcp
+    state: enabled
+  - name: fabric forwarding
+    state: enabled
+  - name: grpc
+    state: enabled
+  - name: interface-vlan
+    state: enabled
+  - name: lacp
+    state: enabled
+  - name: netconf
+    state: enabled
+  - name: nxapi
+    state: enabled
+  - name: ospf
+    state: enabled
+  - name: restconf
+    state: enabled
+  - name: scp-server
+    state: enabled
+  - name: telemetry
+    state: enabled
+  - name: vpc
+    state: enabled
