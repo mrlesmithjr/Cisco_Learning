@@ -1,5 +1,5 @@
 ---
-name: Python Test
+name: Default Tests
 on: push
 jobs:
   build:
