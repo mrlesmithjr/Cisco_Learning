@@ -6,12 +6,13 @@ authors = ["Larry Smith Jr. <mrlesmithjr@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-pyats = {version = "21.2", extras = ["full"]}
+ansible = "^4.6.0"
 paramiko = "^2.7.2"
+pyats = {extras = ["full"], version = "^21.9"}
 
 [tool.poetry.dev-dependencies]
-flake8 = "^3.9.0"
-black = {version = "^20.8b1", allow-prereleases = true}
+black = "^21.9b0"
+flake8 = "^3.9.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
