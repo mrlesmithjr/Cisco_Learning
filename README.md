@@ -1,4 +1,7 @@
-# Cisco Learning
+> [!CAUTION]
+> **This project is archived and no longer maintained.**
+> Archived: 2026-03-26
+> Reason: Learning materials from ~2014; outdated and no longer maintained# Cisco Learning
 
 This is just a repo for programatic learning of Cisco devices. It will over time evolve and grow.
 
